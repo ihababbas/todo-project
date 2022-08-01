@@ -18,13 +18,13 @@ function welcomeMasg(){
     {
         if(Gender=="male")
         {
-            console.log("Mr." + Name);
+            alert("Hi Mr." + Name);
         }
         else if (Gender=="female") {
-            console.log("Ms." + Name);
+           alert("Hi Ms." + Name);
             
         } else {
-            console.log("input is not correct");             
+            alert("input is not correct");             
         } 
     }
 
